@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Environment & Secret Keys (CRITICAL for trust-based apps)
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Build & Cache folders
+dist/
+build/
+.next/
+.cache/
+
+# OS & Editor files
+.DS_Store
+.vscode/
